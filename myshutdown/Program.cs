@@ -8,21 +8,21 @@ using System.Windows.Forms;
 namespace myshutdown {
     class Program {
         private enum shutDownTypeEnum {
-            sleep,
-            shutdown,
-            restart,
-            hybernate
+            sleep = 0,
+            shutdown = 1,
+            restart = 2,
+            hybernate = 3
         }
         private static shutDownTypeEnum shutDownType;
         
         static void Main(string[] args) {
             if (args.Length > 0) {
-                var shutdownType = args[0];
+                shutDownType = (shutDownTypeEnum)Enum.Parse(typeof(shutDownTypeEnum), args[0], true);
             } else {
                 shutDownType = shutDownTypeEnum.sleep;
             }
             switch (shutDownType) {
-                case shutDownTypeEnum.sleep:
+                case shutDownTypeEnum.hybernate:
                     Application.SetSuspendState(PowerState.Suspend, true, true);
                     break;
                 case shutDownTypeEnum.shutdown:
