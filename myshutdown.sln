@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "myshutdown", "myshutdown\myshutdown.csproj", "{7DC645B1-9BFE-47DC-B34C-84C74C010001}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7DC645B1-9BFE-47DC-B34C-84C74C010001}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DC645B1-9BFE-47DC-B34C-84C74C010001}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DC645B1-9BFE-47DC-B34C-84C74C010001}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DC645B1-9BFE-47DC-B34C-84C74C010001}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DA79BC8B-109B-4A1F-8D46-73F3FF99F944}
+	EndGlobalSection
+EndGlobal
