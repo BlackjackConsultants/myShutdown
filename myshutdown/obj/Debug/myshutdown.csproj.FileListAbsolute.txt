@@ -1,4 +1,3 @@
-C:\Users\jorge\OneDrive\jorgeprg\csharp\Tools\myshutdown\myshutdown\obj\Debug\myshutdown.csprojAssemblyReference.cache
 C:\Users\jorge\OneDrive\jorgeprg\csharp\Tools\myshutdown\myshutdown\obj\Debug\myshutdown.csproj.CoreCompileInputs.cache
 C:\Users\jorge\OneDrive\jorgeprg\csharp\Tools\myshutdown\myshutdown\bin\Debug\myshutdown.exe.config
 C:\Users\jorge\OneDrive\jorgeprg\csharp\Tools\myshutdown\myshutdown\bin\Debug\myshutdown.exe
